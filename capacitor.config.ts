@@ -1,9 +1,9 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'ionic-notes',
-  webDir: 'dist'
+  appId: 'com.ionicnotes.app',
+  appName: 'Ionic Notes',
+  webDir: 'dist',
 };
 
 export default config;
