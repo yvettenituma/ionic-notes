@@ -1,0 +1,7 @@
+{
+  "name": "ionic-notes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
