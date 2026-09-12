@@ -1,2 +1,51 @@
-/* For information on how to create your own theme, please refer to:
-http://ionicframework.com/docs/theming/ */
+/* Desk Ledger theme tokens — import after Ionic's default variables.css */
+
+:root {
+  --color-canvas: #EDEAE0;
+  --color-card: #F7F5EE;
+  --color-card-border: #DAD4C2;
+  --color-ink: #262420;
+  --color-ink-soft: #6B6558;
+  --color-rail: #22333B;
+  --color-rail-active: #3E5C63;
+  --color-brass: #B8862F;
+  --color-brass-dark: #96701F;
+  --color-tag-school: #8C5A2B;
+  --color-tag-personal: #3C5A6E;
+  --color-favorite: #9C3B33;
+  --color-archive: #8A8577;
+
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'IBM Plex Sans', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --radius-card: 3px;
+  --rail-width: 76px;
+}
+
+ion-content {
+  --background: var(--color-canvas);
+}
+
+body {
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, .stamp-label {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+.meta-text {
+  font-family: var(--font-mono);
+  color: var(--color-ink-soft);
+  font-size: 0.72rem;
+}
+
+/* Shared card-stock surface used by NoteCard / RecentNotes */
+.paper-surface {
+  background: var(--color-card);
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius-card);
+}
